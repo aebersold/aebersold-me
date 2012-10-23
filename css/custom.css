@@ -1,15 +1,14 @@
 #wrapper {
 }
 .v0 {
-  background-color:#fff;
-  border-bottom:1px solid #fff;
-  height:3px;
-  margin-bottom:40px;
+  background-color:#FAFBFC;
+  height:20px;
 }
 
 .v1 {
-  height:650px;
+  height:700px;
   text-shadow:1px 1px 1px #fff;
+  background-color:#FAFBFC;
 }
 .v1 h1 {
   margin-top:180px;
@@ -28,11 +27,11 @@
 }
 .v1 img {
   float:right;
-  margin-right:80px;
+  margin-right:33px;
 }
 .v1 p {
   margin-top:70px;
-  margin-bottom:25px;
+  margin-bottom:45px;
   color:#aaa;
   text-shadow:1px 1px #fff;
   font-size:2em;
@@ -43,6 +42,25 @@
   font-weight:bold;
   border-bottom:1px dotted #ccc;
 }
+.v1 .lebtns {
+  text-align: center;
+  color:#aaa;
+  text-shadow:0px 1px white;
+  background-color:#f3f3f3;
+  padding:25px 50px;
+  border-radius: 5px;
+/*  background-image:url('../img/noisy_grid.png');
+  background-image: -webkit-radial-gradient(circle cover, rgba(255,255,255,0.0), rgba(255,255,255,0.8)), url('../img/noisy_grid.png');
+  background-image: -moz-radial-gradient(circle cover, rgba(255,255,255,0.0), rgba(255,255,255,0.8)), url('../img/noisy_grid.png');
+  background-image: -ms-radial-gradient(circle cover, rgba(255,255,255,0.0), rgba(255,255,255,0.8)), url('../img/noisy_grid.png');
+  background-image: -o-radial-gradient(circle cover, rgba(255,255,255,0.0), rgba(255,255,255,0.8)), url('../img/noisy_grid.png');
+  background-image: radial-gradient(circle cover, rgba(255,255,255,0.0), rgba(255,255,255,0.8)), url('../img/noisy_grid.png');
+*/
+}
+.v1 .lebtns a {
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+  -webkit-box-reflect: below 3px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(rgba(255,255,255,0.3)));;
+}
 
 .v2 {
   color:#b49d7b;
@@ -50,13 +68,13 @@
   background-image:url('../img/v2noise.png');
   height:800px;
   text-shadow:1px 1px 1px #000;
-  border-bottom:2px solid #1f1c14;
+  border-bottom:2px solid #383838;
 }
 .v2 h2 {
   margin-top:80px;
   font-size:6em;
   line-height:1;
-  margin-bottom:20px;
+  margin-bottom:40px;
   font-family:'Yanone Kaffeesatz',Helvetica,Arial,sans-serif;
 }
 .v2 h3 {
@@ -66,13 +84,50 @@
 .v2 .lbl {
   font-size:0.8em;
   color:#9f8764;
-  width:60px;
+  width:110px;
   display:inline-block;
   font-family:'Yanone Kaffeesatz',Helvetica,Arial,sans-serif;
 }
 .v2 .ablauf {
   margin-top:30px;
 }
+
+
+.v2-2 {
+  color:#ddd;
+  background-color:#29251a;
+  background-image:url('../img/v2-2noise.png');
+  background-image: -webkit-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.8)), url('../img/v2-2noise.png');
+  background-image: -moz-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.8)), url('../img/v2-2noise.png');
+  background-image: -ms-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.8)), url('../img/v2-2noise.png');
+  background-image: -o-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.8)), url('../img/v2-2noise.png');
+  background-image: radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.8)), url('../img/v2-2noise.png');
+  height:450px;
+  text-shadow:1px 1px 1px #000;
+  border-bottom:2px solid #1f1c14;
+}
+.v2-2 h2 {
+  margin-top:80px;
+  font-size:6em;
+  line-height:1;
+  margin-bottom:40px;
+  font-family:'Yanone Kaffeesatz',Helvetica,Arial,sans-serif;
+}
+.v2-2 h3 {
+  font-size:2.5em;
+  line-height:1.2;
+}
+.v2-2 .lbl {
+  font-size:0.8em;
+  color:#bbb;
+  width:130px;
+  display:inline-block;
+  font-family:'Yanone Kaffeesatz',Helvetica,Arial,sans-serif;
+}
+.v2-2 .ablauf {
+  margin-top:30px;
+}
+
 
 .rthumb {
   margin-left: -20px;
