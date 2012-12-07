@@ -66,6 +66,12 @@
   color:#b49d7b;
   background-color:#29251a;
   background-image:url('../img/v2noise.png');
+  background-image: -webkit-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.2)), url('../img/v2noise.png');
+  background-image: -moz-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.2)), url('../img/v2noise.png');
+  background-image: -ms-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.2)), url('../img/v2noise.png');
+  background-image: -o-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.2)), url('../img/v2noise.png');
+  background-image: radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.2)), url('../img/v2noise.png');
+
   height:800px;
   text-shadow:1px 1px 1px #000;
   border-bottom:2px solid #383838;
@@ -102,7 +108,7 @@
   background-image: -ms-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.8)), url('../img/v2-2noise.png');
   background-image: -o-radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.8)), url('../img/v2-2noise.png');
   background-image: radial-gradient(circle farthest-side, rgba(0,0,0,0.0), rgba(10,10,10,0.8)), url('../img/v2-2noise.png');
-  height:450px;
+  height:480px;
   text-shadow:1px 1px 1px #000;
   border-bottom:2px solid #1f1c14;
 }
@@ -128,6 +134,11 @@
   margin-top:30px;
 }
 
+.v2-2 img {
+  float:right;
+  margin-top: -90px;
+}
+
 
 .rthumb {
   margin-left: -20px;
@@ -138,16 +149,16 @@
   margin: 0 0 18px 20px;
 }
 .rthumb a {
-  border:4px solid #62A7E0;
+  border:4px solid rgba(98,167,224,0.6);
   display:block;
   line-height:1;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   padding:0px;
-	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.6);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.6);
 }
 .rthumb a:hover {
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.8);
@@ -159,7 +170,7 @@
   border-top:20px solid #175282;
   border-bottom:20px solid #62a7e0;
   padding-top:40px;
-  height:700px;
+  height:860px;
   text-shadow:1px 1px 1px #175282;
   background-color:#205a8c;
   background-image:url('../img/v3noise.png');
