@@ -1,0 +1,258 @@
+/* line 6, ../sass/style.sass */
+#wrapper .v0 {
+  background-color: #111111;
+  height: 0px; }
+/* line 11, ../sass/style.sass */
+#wrapper .v1 {
+  position: relative;
+  height: 800px;
+  background-color: black;
+  background-image: url("../img/simon_gold_pic.jpg");
+  background-repeat: no-repeat;
+  background-position: left 40%;
+  background-size: cover; }
+  /* line 21, ../sass/style.sass */
+  #wrapper .v1 .container {
+    position: relative; }
+  /* line 24, ../sass/style.sass */
+  #wrapper .v1 .teaserbox {
+    width: 45%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+    /* line 30, ../sass/style.sass */
+    #wrapper .v1 .teaserbox h1 {
+      color: #eeeeee;
+      margin-top: 180px;
+      font-size: 4.5em;
+      font-weight: 100;
+      line-height: 0.9;
+      margin-bottom: 10px; }
+      /* line 38, ../sass/style.sass */
+      #wrapper .v1 .teaserbox h1 span {
+        color: #db3963;
+        font-size: 1.5em;
+        line-height: 1.2;
+        font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; }
+    /* line 44, ../sass/style.sass */
+    #wrapper .v1 .teaserbox h2 {
+      color: #444444;
+      font-weight: normal;
+      letter-spacing: 3px; }
+    /* line 49, ../sass/style.sass */
+    #wrapper .v1 .teaserbox .lebtns {
+      margin-top: 50px;
+      text-align: left;
+      color: #aaaaaa;
+      text-shadow: 0px 1px black;
+      padding: 25px 45px;
+      border-radius: 5px; }
+    /* line 57, ../sass/style.sass */
+    #wrapper .v1 .teaserbox .contactlink {
+      display: inline-block;
+      vertical-align: middle;
+      background-color: #222222;
+      border: 1px solid #222222;
+      color: #db3963;
+      padding: 9px 14px;
+      font-size: 15px;
+      line-height: normal;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px; }
+      /* line 70, ../sass/style.sass */
+      #wrapper .v1 .teaserbox .contactlink:hover {
+        text-decoration: none; }
+/* line 74, ../sass/style.sass */
+#wrapper .v2 {
+  color: white;
+  background-color: #db3963;
+  height: 500px;
+  border-bottom: 1px solid #383838; }
+  /* line 81, ../sass/style.sass */
+  #wrapper .v2 h4 {
+    background-color: #de4c72;
+    color: #9b193b; }
+  /* line 85, ../sass/style.sass */
+  #wrapper .v2 img {
+    float: right;
+    margin-top: -60px; }
+/* line 89, ../sass/style.sass */
+#wrapper .v2-2 {
+  color: #eeeeee;
+  background-color: #29251a;
+  background-image: url("../img/v2-2noise.png");
+  background-image: -webkit-radial-gradient(circle farthest-side, rgba(0, 0, 0, 0), rgba(10, 10, 10, 0.8)), url("../img/v2-2noise.png");
+  background-image: -moz-radial-gradient(circle farthest-side, rgba(0, 0, 0, 0), rgba(10, 10, 10, 0.8)), url("../img/v2-2noise.png");
+  background-image: -ms-radial-gradient(circle farthest-side, rgba(0, 0, 0, 0), rgba(10, 10, 10, 0.8)), url("../img/v2-2noise.png");
+  background-image: -o-radial-gradient(circle farthest-side, rgba(0, 0, 0, 0), rgba(10, 10, 10, 0.8)), url("../img/v2-2noise.png");
+  background-image: radial-gradient(circle farthest-side, rgba(0, 0, 0, 0), rgba(10, 10, 10, 0.8)), url("../img/v2-2noise.png");
+  height: 500px;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid #1f1c14; }
+  /* line 102, ../sass/style.sass */
+  #wrapper .v2-2 h4 {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #aaaaaa;
+    text-shadow: none; }
+  /* line 107, ../sass/style.sass */
+  #wrapper .v2-2 img {
+    float: right;
+    margin-top: -160px; }
+/* line 113, ../sass/style.sass */
+#wrapper .v2 h4, #wrapper .v2-2 h4 {
+  display: inline-block;
+  padding: 20px 10px;
+  margin: 50px 0;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 5px; }
+/* line 123, ../sass/style.sass */
+#wrapper .v2 h2, #wrapper .v2-2 h2 {
+  margin-top: 0px;
+  font-size: 6em;
+  line-height: 1;
+  margin-bottom: 40px;
+  font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; }
+/* line 130, ../sass/style.sass */
+#wrapper .v2 h3, #wrapper .v2-2 h3 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  font-weight: 200; }
+/* line 135, ../sass/style.sass */
+#wrapper .v2 .ablauf, #wrapper .v2-2 .ablauf {
+  margin-top: 30px; }
+/* line 139, ../sass/style.sass */
+#wrapper .v3 {
+  border-top: 20px solid #175282;
+  border-bottom: 20px solid #62a7e0;
+  padding-top: 40px;
+  height: 860px;
+  text-shadow: 1px 1px 1px #175282;
+  background-color: #205a8c;
+  background-image: url("../img/v3noise.png"); }
+  /* line 148, ../sass/style.sass */
+  #wrapper .v3 h2 {
+    color: white;
+    font-size: 5em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; }
+  /* line 156, ../sass/style.sass */
+  #wrapper .v3 ul.rthumb {
+    margin-left: -20px;
+    list-style: none; }
+    /* line 160, ../sass/style.sass */
+    #wrapper .v3 ul.rthumb li {
+      float: left;
+      margin: 0 0 18px 20px; }
+    /* line 164, ../sass/style.sass */
+    #wrapper .v3 ul.rthumb a {
+      border: 4px solid rgba(98, 167, 224, 0.6);
+      display: block;
+      line-height: 1;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      padding: 0px;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6); }
+    /* line 176, ../sass/style.sass */
+    #wrapper .v3 ul.rthumb a:hover {
+      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); }
+/* line 181, ../sass/style.sass */
+#wrapper .v4 {
+  padding-top: 40px;
+  height: 800px;
+  text-shadow: 1px 1px 1px white; }
+  /* line 186, ../sass/style.sass */
+  #wrapper .v4 h2 {
+    font-size: 5em;
+    line-height: 1;
+    font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+    margin-bottom: 20px; }
+  /* line 192, ../sass/style.sass */
+  #wrapper .v4 h3 {
+    font-size: 1.6em;
+    margin-top: 30px; }
+  /* line 196, ../sass/style.sass */
+  #wrapper .v4 p {
+    font-size: 1.1em;
+    color: #666666; }
+  /* line 200, ../sass/style.sass */
+  #wrapper .v4 span {
+    width: 100px;
+    display: inline-block; }
+  /* line 204, ../sass/style.sass */
+  #wrapper .v4 strong {
+    display: inline-block; }
+  /* line 207, ../sass/style.sass */
+  #wrapper .v4 em {
+    margin-left: 100px; }
+  /* line 210, ../sass/style.sass */
+  #wrapper .v4 q {
+    width: 120px;
+    display: inline-block; }
+  /* line 214, ../sass/style.sass */
+  #wrapper .v4 small {
+    font-size: 0.7em;
+    color: #888888; }
+/* line 218, ../sass/style.sass */
+#wrapper .v4r {
+  border-left: 1px dotted #cccccc;
+  padding-left: 40px; }
+/* line 224, ../sass/style.sass */
+#wrapper .v5 {
+  border-top: 20px solid #175282;
+  padding-top: 40px;
+  height: 600px;
+  text-shadow: 1px 1px 1px #175282;
+  background-color: #205a8c;
+  background-image: url("../img/v3noise.png"); }
+  /* line 232, ../sass/style.sass */
+  #wrapper .v5 h2 {
+    color: white;
+    font-size: 5em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; }
+  /* line 239, ../sass/style.sass */
+  #wrapper .v5 h3, #wrapper .v5 p {
+    color: white;
+    font-size: 3em;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif; }
+  /* line 246, ../sass/style.sass */
+  #wrapper .v5 span {
+    font-size: 0.8em;
+    color: #c7ddef;
+    width: 60px;
+    display: inline-block; }
+  /* line 252, ../sass/style.sass */
+  #wrapper .v5 .social a {
+    margin-top: 50px;
+    padding: 5px;
+    border: 10px solid #175282;
+    display: inline-block;
+    margin-right: 3px; }
+  /* line 259, ../sass/style.sass */
+  #wrapper .v5 small {
+    display: block;
+    margin-top: 20px;
+    color: #80a0ba;
+    text-shadow: 1px 1px #175282;
+    font-size: 0.8em; }
+/* line 267, ../sass/style.sass */
+#wrapper .v6 {
+  border-top: 2px solid #1f1c14;
+  background-color: #29251a;
+  background-image: url("../img/v2noise.png");
+  padding: 10px 0px;
+  color: #cccccc;
+  font-size: 0.8em;
+  text-shadow: 1px 1px 1px black; }

@@ -1618,29 +1618,36 @@ legend + .control-group {
   color: rgba(255, 255, 255, 0.75);
 }
 .btn-primary {
-  background-color: #53baee;
-  background-image: -moz-linear-gradient(top, #53c9ee, #53a2ee);
-  background-image: -ms-linear-gradient(top, #53c9ee, #53a2ee);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#53c9ee), to(#53a2ee));
-  background-image: -webkit-linear-gradient(top, #53c9ee, #53a2ee);
-  background-image: -o-linear-gradient(top, #53c9ee, #53a2ee);
-  background-image: linear-gradient(top, #53c9ee, #53a2ee);
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #891634;
+  background-image: -moz-linear-gradient(top, #9b193b, #6f122a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9b193b), to(#6f122a));
+  background-image: -webkit-linear-gradient(top, #9b193b, #6f122a);
+  background-image: -o-linear-gradient(top, #9b193b, #6f122a);
+  background-image: linear-gradient(to bottom, #9b193b, #6f122a);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#53c9ee', endColorstr='#53a2ee', GradientType=0);
-  border-color: #53a2ee #53a2ee #167ddf;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff9b193b', endColorstr='#ff6f122a', GradientType=0);
+  border-color: #6f122a #6f122a #2d0711;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+  *background-color: #6f122a;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
 .btn-primary:hover,
+.btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.disabled,
 .btn-primary[disabled] {
-  background-color: #53a2ee;
+  color: #ffffff;
+  background-color: #6f122a;
+  *background-color: #590e22;
 }
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #2589e9 \9;
+  background-color: #430b1a \9;
 }
 .btn-warning {
   background-color: #faa732;

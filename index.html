@@ -9,13 +9,12 @@
 //-->
 <title>Simon Aebersold. Webdeveloper.</title>
 <meta name="robots" content="noindex,nofollow">
-<meta name="description" content="Portfolio from Simon Aebersold">
-<meta name="keywords" content="Simon Aebersold, Webdesigner, Webdesign, Winterthur">
+<meta name="description" content="Portfolio of Simon Aebersold, Webdeveloper from Winterthur">
+<meta name="keywords" content="Simon Aebersold, Webdeveloper, Webdesign, Winterthur">
 <meta name="author" content="Simon Aebersold">
 <meta http-equiv="imagetoolbar" content="no" />
-<link rel="stylesheet" href="css/bootstrap.min.css" media="all">
-<link rel="stylesheet" href="css/custom.css" media="all">
-<link rel="stylesheet" href="css/timeline.css" media="all">
+<link rel="stylesheet" href="css/bootstrap.css" media="all">
+<link rel="stylesheet" href="css/style.css" media="all">
 <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700' rel='stylesheet' type='text/css'>
@@ -44,31 +43,33 @@
   <!-- What? What ain't no country I ever heard of? Do they speak English in What? -->
   <section class="v1">
     <div class="container">
-      <img src="img/chemie-400hoch.png" alt="design" />
-      <h1>Simon Aebersold<br><span>Webdeveloper.</span></h1>
-      <h2>creative. modern. elegant.</h2>
-      <p>Hi, I'm <em>Simon Aebersold</em>. I create and design Websites with <em>HTML5</em>, <em>CSS3</em>, <em>Photoshop</em>, <em>PHP</em> and <em>MySQL</em>.</p>
+      
+      <div class="teaserbox">
+        <h1>Simon Aebersold<br><span>Webdeveloper.</span></h1>
 
-      <div class="lebtns">
-        <a href="Lebenslauf_Simon-Aebersold.pdf" class="btn btn-large btn-primary"><i class="icon-file icon-white"></i> curriculum vitae</a>&emsp;or&emsp;<a href="#" onclick="$.scrollTo( '#v5', 800 );" class="btn btn-large"><i class="icon-user"></i> contact</a>
+        <div class="lebtns">
+          <a href="Lebenslauf_Simon-Aebersold.pdf" class="btn btn-large btn-primary"><i class="icon-file icon-white"></i> download CV</a>&emsp;or&emsp;<a href="#" onclick="$.scrollTo( '#v5', 800 );" class="contactlink">contact me</a>
+        </div>
       </div>
     </div>
   </section>
   <!-- Mind if I have some of your tasty beverage to wash this down with?  -->
   <section class="v2">
     <div class="container">
-      <h2>I experiment with graphics, typo, color and shapes.</h2>
-      <h3><span class="lbl">CONCEPT</span> Pen&amp;Paper. Mockups. Photoshop. </h3>
-      <h3><span class="lbl">RESULT</span> HTML5. CSS3. jQuery.</h3>
-      <img src="img/ablauf.png" alt="ablauf" class="ablauf" />
+      <h4>Frontend</h4>
+      <h2>Cutting-edge frontend development.</h2>
+      <img src="img/frontend.png" alt="frontend" class="frontend" />
+      <h3>HTML5. CSS3. jQuery. SASS. Responsive.</h3>
+      <h3>Semantic, responsive and clean markup.</h3>
     </div>
   </section>
   <section class="v2-2">
     <div class="container">
-      <h2>Intelligent web applications with <br>clean & classy code.</h2>
+      <h4>Backend</h4>
+      <h2>Clean & classy code.</h2>
       <img src="img/laravel.png" alt="laravel" class="laravel" />
-      <h3><span class="lbl">TECHNOLOGIES</span> PHP. MySQL. Python.</h3>
-      <h3><span class="lbl">SOLUTIONS</span> Laravel. Contao. Django.</h3>
+      <h3>PHP5. MySQL. Laravel. RESTful. MVC.</h3>
+      <h3>Custom and smart web applications.</h3>
 
     </div>
   </section>
@@ -172,19 +173,20 @@
             <em>Eidgenössisches Fähigkeitszeugnis</em>
           </p>
           <h3>Hobbies</h3>
-          <p>Fitness, Games, Photography, Design, Movies</p>
+          <p>Paragliding, Fitness, Games, Design, Movies</p>
           
           <h3>ASL?</h3>
-          <p>24 / m / Winterthur CH</p>
+          <p>25 / m / Winterthur CH</p>
           
-          <h3>Erfahrung</h3>
-          <p><q>LAMP</q><strong>5 years</strong></p>
-          <p><q>HTML</q><strong>10 years</strong></p>
-          <p><q>CSS</q><strong>6 years</strong></p>
-          <p><q>Photoshop</q><strong>6 years</strong></p>
-          <p><q>PHP</q><strong>6 years</strong></p>
+          <h3>I'm doing this stuff since</h3>
+          <p><q>LAMP</q><strong>6 years</strong></p>
+          <p><q>PHP</q><strong>7 years</strong></p>
+          <p><q>MySQL</q><strong>6 years</strong></p>
+          <p><q>HTML</q><strong>11 years</strong></p>
           <p><q>jQuery</q><strong>4 years</strong></p>
-          <p><q>Python</q><strong>2 years</strong></p>
+          <p><q>CSS</q><strong>7 years</strong></p>
+          <p><q>SASS</q><strong>2 years</strong></p>
+          <p><q>Photoshop</q><strong>7 years</strong></p>
           <small>No stupid bar-graphs here, who can actually measure their experience by percentage?</small>
         </div>
         <div class="span6">
@@ -211,27 +213,11 @@
             <br />
             <h4>some open-source software I love:</h4>
             <p>
-              <i>debian, apache, git, vim, filezilla etc.</i>
+              <i>grunt, emmet, mailcatcher, debian, apache, git, vim, filezilla (…)</i>
             </p>
           </div>       
         </div>
       </div>
-        
-      <!--
-      <h2>Timeline</h2>
-      <div id="timeline-embed"></div>
-      <script type="text/javascript">
-        var timeline_config = {
-          width: 900, // OPTIONAL
-          height: 650, // OPTIONAL
-          // maptype: "watercolor", // OPTIONAL
-          // css: 'css/timeline.css', // OPTIONAL
-          // js: 'path_to_file/timeline.js', // OPTIONAL
-          source: 'https://docs.google.com/spreadsheet/pub?key=0ApArLn_4jikudDNhMFJ3cXE2NTlfek5ET1NKMVZRcHc&single=true&gid=0&output=html'
-        }
-      </script>
-      <script type="text/javascript" src="http://veritetimeline.appspot.com/latest/timeline-embed.js"></script>
-      -->
     </div>
   </section>
   <!-- Zed's dead, baby. Zed's dead. -->
@@ -265,7 +251,7 @@
   <!-- Hamburgers. The cornerstone of any nutritious breakfast.  -->
   <section class="v6">
     <div class="container">
-      <span>Copyright 2012 by Simon Aebersold, designed and built with love, CSS3, HTML5 and lot of coffee.</span>
+      <span>Copyright 2013 by Simon Aebersold, designed and built with love, CSS3, HTML5 and lot of coffee.</span>
       <br />
       <span>grid/base css by <a href="http://twitter.github.com/bootstrap/">bootstrap</a>, js by <a href="http://jquery.com/">jQuery</a>, gallery by <a href="http://fancybox.net/">FancyBox</a>.
     </div>
